@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:22
 WORKDIR /workdir
-RUN npm install -g create-react-app
 RUN npx create-react-app front --template typescript
+RUN npm install react-scripts --save
