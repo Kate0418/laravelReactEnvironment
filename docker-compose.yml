@@ -3,7 +3,3 @@ services:
     build: ./docker/back/
   front:
     build: ./docker/front/
-    environment:
-      - NODE_ENV=development
-    stdin_open: true
-    tty: true
