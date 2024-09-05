@@ -14,6 +14,6 @@ RUN apt-get update && \
 
 RUN composer create-project "laravel/laravel=11.x" back
 
-WORKDIR /workdir/back
-RUN composer require laravel/breeze --dev
-RUN php artisan breeze:install api
+# WORKDIR /workdir/back
+# RUN composer require laravel/breeze --dev
+# RUN php artisan breeze:install api
